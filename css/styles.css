@@ -1,0 +1,49 @@
+@import "nav.css";
+@import "img-main.css";
+@import "text-main.css";
+@import "btn.css";
+@import "playlist.css";
+@import "music-player.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+@font-face {
+    font-family: "Leon Sans";
+    src: url("../leon-sans/LeonSans-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "Leon Sans";
+    font-weight: 500;
+    src: url("../leon-sans/LeonSans-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "Leon Sans";
+    font-weight: 700;
+    src: url("../leon-sans/LeonSans-Bold.otf") format("opentype");
+}
+body {
+    font-family: "Leon Sans", "Roboto", sans-serif;
+}
+.big-box {
+    box-sizing: border-box;
+    width: 550px;
+    height: 485px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.box {
+    width: 225px;
+    height: 95%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 5px 8px gray;
+    padding: 15px 15px;
+}

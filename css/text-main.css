@@ -1,0 +1,27 @@
+.text-main {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-main__title {
+    font-size: 17px;
+    font-weight: 700;
+    height: 4px;
+}
+.text-main__description {
+    font-size: 9px;
+    height: 1px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.title__inside {
+    font-size: 18px;
+    position: relative;
+    top: -5px;
+}
+.description__inside {
+    font-size: 12px;
+    position: relative;
+    top: -9px;
+}

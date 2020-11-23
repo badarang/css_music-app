@@ -1,0 +1,24 @@
+.img-main {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-main img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 3px 5px gray;
+}
+.img-main__inside {
+    padding: 25px 0px;
+    width: 175px;
+    height: 175px;
+}
+.img-main__inside img {
+    width: 175px;
+    height: 175px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px -6px #0b3b42;
+}
